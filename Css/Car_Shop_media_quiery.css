@@ -1,0 +1,107 @@
+
+@media(max-width: 768px) {
+  
+  .navbar {
+    flex-direction: column;
+    margin-top: 30px;
+  }
+
+  .navbar a {
+    padding: 8px 5px;
+  }
+
+.main-container {
+  padding: 30px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-container .template-1 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  min-height: 250px;
+  max-width: 350px;
+}
+
+.main-container .template-1 button {
+  margin-bottom: 25px;
+}
+
+.service-container-1 {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+
+}
+
+.service-container-1 .service-car {
+  max-width: 300px;
+}
+
+.service-container-1 .service-car .button-card button {
+  padding:20px;
+}
+
+ .service-container-1 .service-image {
+  margin-top: 15px;
+}
+
+.text h1 {
+  font-size: 1.5rem;
+}
+
+.text h3 {
+  font-size: 1rem;
+}
+
+.service-container-2 .text-container-2 h1{
+  font-size: 1.5rem;
+}
+
+.service-container-2 .text-container-2 p {
+  font-size: 1rem;
+  line-height: 1rem;
+}
+
+.service-container-2 .icon-container {
+  flex-direction: row;
+}
+
+.service-container-2 .icon-container .fas {
+font-size: 3rem;
+margin-top: 10px;
+}
+
+.service-container-2 .icon-container h5{
+font-size: 1rem;
+margin-top: 10px;
+}
+
+.service-container-2 
+.btn-2 .or {
+  font-size:1rem;
+}
+
+.qualified-grid {
+  grid-template-columns: repeat(1, 1fr);
+}
+
+.qualified-grid img {
+  height: 250px;
+}
+
+.qualified-container p {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 1rem;
+}
+
+.qualified-container h1 {
+  font-size: 1.5rem;
+}
+
+.qualified-grid 
+.service-2  {
+  margin-bottom:80px;
+}
+
+}

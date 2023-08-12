@@ -1,0 +1,81 @@
+
+ul {
+  list-style: none;
+}
+
+img {
+    width: 100%;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+.content a:hover, li a:hover {
+  background-color: var(--primary-color);
+}
+
+button:hover {
+  background-color: var(--original-sc-color);
+  font-weight: bolder;
+  font-size: 16px;
+}
+
+.btn {
+  cursor: pointer;
+  display: inline-block;
+  padding: 10px 30px;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+  background-color: var(--secondary-color);
+  border: none;
+}
+
+.btn-2 .btn:hover, .btn-2 .btn-1:hover {
+  background-color: var(--primary-color);
+}
+
+.btn-dark, .bg-dark {
+  background: #333;
+  color: #fff;
+}
+
+.color-2 {
+  color: var(--original-sc-color);
+  font-size: 50px;
+}
+
+.capitalized {
+  text-transform: uppercase;
+  font-size: 20px;
+  padding-top: 15px;
+  font-weight: normal;
+}
+
+.back-color {
+  background-color: var(--primary-color);
+  font-size: 6rem;
+  padding: 0 15px 0 15px;
+  text-align: center;
+}
+
+.back-color-1 {
+  color: var(--defualt-text-color);
+  padding: 0 6px 1px 5px;
+  transform: skew(-14deg);
+  background: var(--primary-color);
+  display: inline-block;
+  font-weight: 500;
+}
+
+.text-primary {
+  color: #28a745;
+}
+
+.car-color {
+  color: var(--primary-color);
+}
+
+
