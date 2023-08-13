@@ -18,7 +18,7 @@ switch (wash) {
   case wash:
     wash.addEventListener("click", firstService);
     function firstService() {
-      myImage.src = "/Image/png/Wash car.png";
+      myImage.src = "./Image/png/Wash car.png";
       myTitle.innerHTML = 'Car <span class="back-color-1"> Wash </span>';
       firstParagraph.textContent =
         "Necessitatibus dignissimos perspiciatis, doloribus ut nobis architecto veritatis ipsa unde magni enim saepe error quos velit tenetur ducimus voluptate magnam beatae recusandae";
@@ -36,7 +36,7 @@ switch (glass) {
   case glass:
     glass.addEventListener("click", changeImage);
     function changeImage() {
-      myImage.src = "/Image/png/car meter.png";
+      myImage.src = "./Image/png/car meter.png";
     }
     glass.addEventListener("click", changeHeading);
     function changeHeading() {
@@ -63,7 +63,7 @@ switch (wheel) {
   case wheel:
     wheel.addEventListener("click", thirdService);
     function thirdService() {
-      myImage.src = "/Image/png/inside car gear.png";
+      myImage.src = "./Image/png/inside car gear.png";
       myTitle.innerHTML = 'Car <span class="back-color-1"> Wheel </span>';
       firstParagraph.textContent =
         "Necessitatibus dignissimos perspiciatis, doloribus ut nobis architecto veritatis ipsa unde magni enim saepe error quos velit tenetur ducimus voluptate magnam beatae recusandae";
@@ -79,7 +79,7 @@ switch (oil) {
   case oil:
     oil.addEventListener("click", fourthService);
     function fourthService() {
-      myImage.src = "/Image/png/oil cahange.png";
+      myImage.src = "./Image/png/oil cahange.png";
       myTitle.innerHTML = 'Car <span class="back-color-1"> Oil </span>';
       firstParagraph.textContent =
         "Necessitatibus dignissimos perspiciatis, doloribus ut nobis architecto veritatis ipsa unde magni enim saepe error quos velit tenetur ducimus voluptate magnam beatae recusandae";
@@ -95,7 +95,7 @@ switch (engine) {
   case engine:
     engine.addEventListener("click", fifthService);
     function fifthService() {
-      myImage.src = "/Image/png/electrical.png";
+      myImage.src = "./Image/png/electrical.png";
       myTitle.innerHTML = 'Car <span class="back-color-1"> Engine </span>';
       firstParagraph.textContent =
         "Necessitatibus dignissimos perspiciatis, doloribus ut nobis architecto veritatis ipsa unde magni enim saepe error quos velit tenetur ducimus voluptate magnam beatae recusandae";
@@ -111,7 +111,7 @@ switch (tire) {
   case tire:
     tire.addEventListener("click", sixthService);
     function sixthService() {
-      myImage.src = "/Image/png/tier.png";
+      myImage.src = "./Image/png/tier.png";
       myTitle.innerHTML = 'Car <span class="back-color-1"> Tires </span>';
       firstParagraph.textContent =
         "Necessitatibus dignissimos perspiciatis, doloribus ut nobis architecto veritatis ipsa unde magni enim saepe error quos velit tenetur ducimus voluptate magnam beatae recusandae";
