@@ -13,6 +13,8 @@ const myImage = document.getElementById("myImage");
 const myTitle = document.getElementById("title");
 const firstParagraph = document.getElementById("para-first");
 const secondParagraph = document.getElementById("para-second");
+const hamburgerBtn = document.getElementById("hamburger");
+const navMenu = document.querySelector(".menu");
 
 switch (wash) {
   case wash:
@@ -123,14 +125,22 @@ switch (tire) {
     break;
 }
 
-// document.getElementById("navbar").addEventListener("scroll", myFunction);
+function toggleHamburger() {
+  navMenu.classList.toggle("show");
+  hamburgerBtn.setAttribute(
+    "aria-expanded",
+    hamburgerBtn.getAttribute("aria-expanded") === "false" ? "true" : "false"
+  );
+}
+hamburgerBtn.addEventListener("click", toggleHamburger);
+document.getElementById("navbar").addEventListener("scroll", myFunction);
 
-// function myFunction() {
-//   document.getElementById("navbar").style.Color = "red";
-// }
-// $(function () {
-//   $(document).scroll(function () {
-//     var $nav = $(".navbar");
-//     $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
-//   });
-// });
+function myFunction() {
+  document.getElementById("navbar").style.Color = "red";
+}
+$(function () {
+  $(document).scroll(function () {
+    var $nav = $(".navbar");
+    $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+  });
+});

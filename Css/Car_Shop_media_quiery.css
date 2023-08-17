@@ -1,16 +1,39 @@
 
-@media(max-width: 768px) {
-  
-  .navbar {
+@media screen and (max-width: 768px) {
+   #hamburger {
+    display: block;
+    position: relative;
+  }
+    .menu {
+    display: none;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    min-height: 100vh;
+    width: 100%;
+  }
+  .menu.show {
+    display: block;
+  }
+
+  .menu ul {
     flex-direction: column;
-    margin-top: 30px;
-  }
+    font-size: 1.2rem;
+    line-height: 3rem;
+    background-color: black;
+    }
 
-  .navbar a {
-    padding: 8px 5px;
-    font-size: 12px;
-  }
-
+li a:hover {
+  background-color: #0284d0 !important;
+  width: 100%;
+  display: block;
+  font-weight: 500;
+}
+li:nth-child(1) a:hover {
+  background-color:#28a745 !important;
+  
+}
+  
 .main-container {
   padding: 30px;
   flex-direction: column;
