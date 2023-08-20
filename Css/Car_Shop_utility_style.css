@@ -30,7 +30,6 @@ button:hover {
   border-radius: 5px;
   border: none;
   background-color: var(--secondary-color);
-  border: none;
 }
 
 .btn-2 .btn:hover, .btn-2 .btn-1:hover {

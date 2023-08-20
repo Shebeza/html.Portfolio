@@ -32,7 +32,7 @@ switch (wash) {
     break;
 }
 
-// the change above is instead of creating a function for each action (chnageImage,changeHeading,changeFirstParagraph, and chnageSecondParagraph), we just give one function name (firstService) like above, and when this function called by click event all 4 desire change will be excuted. so i will leave the below code as exmaple and comparition.
+// the change above is instead of creating a function for each action (chnageImage,changeHeading,changeFirstParagraph, and chnageSecondParagraph), i just give one function name (firstService) like above, and when this function called by click event all 4 desire change will be excuted. so i will leave the below code as exmaple and comparition.
 
 switch (glass) {
   case glass:
@@ -135,12 +135,4 @@ function toggleHamburger() {
 hamburgerBtn.addEventListener("click", toggleHamburger);
 document.getElementById("navbar").addEventListener("scroll", myFunction);
 
-function myFunction() {
-  document.getElementById("navbar").style.Color = "red";
-}
-$(function () {
-  $(document).scroll(function () {
-    var $nav = $(".navbar");
-    $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
-  });
-});
+

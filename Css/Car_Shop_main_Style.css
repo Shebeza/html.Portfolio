@@ -57,6 +57,7 @@ body {
 
 .hero .content .btn {
   margin-top:75px;
+  z-index: 1;
 }
 
 .hero::before {
@@ -88,15 +89,6 @@ body {
   top: 0;
   padding: 0 30px;
   transition: 1s;
-}
-
-.navbar.scrolled {
-  background-color: #000 !important;
-  transition: background-color 200ms linear;
-}
-
-.navbar.top {
-  /* background: transparent; */
 }
 
 .navbar a {
